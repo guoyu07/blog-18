@@ -1,5 +1,8 @@
 language: node_js
+
 node_js: stable
+
+cache: yarn
 
 sudo: false
 
@@ -18,10 +21,11 @@ before_install:
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name 'JounQin'
 - git config --global user.email 'liujiaren1992@vip.qq.com'
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH="$HOME/.yarn/bin:$PATH"
+- yarn global add greenkeeper-lockfile hexo-cli gulp-cli
 
-install:
-- npm i -g hexo-cli gulp-cli
-- npm i
+before_script: greenkeeper-lockfile-update
 
 script:
 - hexo clean
@@ -30,3 +34,5 @@ script:
 - cp -r ./build/* ./public
 - touch ./public/.nojekyll
 - hexo d
+
+after_script: greenkeeper-lockfile-upload
