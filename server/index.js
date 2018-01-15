@@ -98,7 +98,10 @@ var middlewares = [
                 case 1:
                     _a.sent();
                     start = Date.now();
-                    context = { ctx: ctx, title: 'GraphQL study' };
+                    context = {
+                        ctx: ctx,
+                        title: 'Blog | Blog system built on GitHub API with Vue SSR',
+                    };
                     ctx.respond = false;
                     ctx.status = 200;
                     ctx.set({
