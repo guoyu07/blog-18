@@ -43,16 +43,16 @@
     "3.c731180d34209f7e213d.js",
     "4.a2fb6902d88e748b151d.js",
     "vendors.cf0096bde7cd7faf54a7.js",
-    "main.24626fb4133e9f22b790.js",
-    "manifest.72efb54c8691f9758b94.js",
+    "main.63857e682e706c99a053.js",
+    "manifest.36b43269752d3f65dcd3.js",
     "app.09918c69e4cbc60fd5b51ed5ba844492.css",
     "favicon.ico",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.72efb54c8691f9758b94.js",
+    "manifest.36b43269752d3f65dcd3.js",
     "vendors.cf0096bde7cd7faf54a7.js",
-    "main.24626fb4133e9f22b790.js"
+    "main.63857e682e706c99a053.js"
   ],
   "async": [
     "0.c419b660ffdb0874c026.js",
@@ -312,7 +312,7 @@
       44,
       35
     ],
-    "78379a48": [
+    "b36d1f6c": [
       42,
       44,
       35
@@ -612,12 +612,12 @@
       44,
       35
     ],
-    "1f88af14": [
+    "236ea9fe": [
       42,
       44,
       35
     ],
-    "327a0bc0": [
+    "2aae15ec": [
       42,
       44,
       35
