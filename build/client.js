@@ -59,7 +59,7 @@ exports.default = merge.smart(base_1.default, {
                 ],
             }),
             new SWPrecacheWebpackPlugin({
-                cacheId: 'x',
+                cacheId: 'blog',
                 minify: true,
                 dontCacheBustUrlsMatching: /./,
                 staticFileGlobsIgnorePatterns: [

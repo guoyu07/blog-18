@@ -1,61 +1,61 @@
 {
   "publicPath": "/",
   "all": [
-    "font/Lato-Bold.svg",
+    "font/Lato-BoldItalic.ttf",
     "fonts.css",
-    "font/Lato-Light.eot",
-    "font/Lato-Light.woff2",
-    "font/Lato-Light.svg",
+    "font/Lato-Light.woff",
     "font/Lato-Light.ttf",
+    "font/Lato-Light.eot",
     "font/Lato-LightItalic.woff",
     "font/Lato-LightItalic.woff2",
     "font/Lato-LightItalic.ttf",
     "font/Lato-LightItalic.eot",
+    "font/Lato-Light.svg",
+    "font/Lato-Italic.woff",
+    "font/Lato-Italic.woff2",
+    "font/Lato-Italic.eot",
+    "font/Lato-Italic.ttf",
     "font/Lato-Regular.eot",
     "font/Lato-Regular.woff",
     "font/Lato-Regular.woff2",
     "font/Lato-Regular.svg",
     "font/Lato-Regular.ttf",
-    "font/Lato-Italic.woff",
-    "font/Lato-Italic.woff2",
-    "font/Lato-Italic.eot",
-    "font/Lato-Italic.ttf",
+    "font/Lato-BoldItalic.woff",
+    "font/Lato-BoldItalic.woff2",
+    "font/Lato-BoldItalic.eot",
+    "font/Lato-LightItalic.svg",
+    "font/Lato-Light.woff2",
+    "font/Lato-Bold.woff",
     "font/Lato-Bold.eot",
     "font/Lato-Bold.woff2",
-    "font/Lato-Bold.woff",
     "font/Lato-Bold.ttf",
-    "font/Lato-Light.woff",
-    "font/Lato-BoldItalic.woff",
-    "font/Lato-BoldItalic.eot",
-    "font/Lato-BoldItalic.woff2",
-    "font/Lato-BoldItalic.ttf",
-    "font/Lato-LightItalic.svg",
     "font/Lato-Italic.svg",
     "font/Lato-BoldItalic.svg",
+    "font/Lato-Bold.svg",
     "674f50d287a8c48dc19ba404d20fe713.eot",
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
     "acd7832c2e5ecb3a2a7450f64e843195.png",
-    "0.0bfa88bd436bc0f12b10.js",
+    "0.1d7a90b43aba7c8562ae.js",
     "1.369834ff897ce1e9eac4.js",
     "2.05641b958e802e1148f5.js",
     "3.57bb3726fea4aad1d275.js",
     "4.9f04452e42fcfdb4ef8c.js",
     "vendors.0fff97419a736b8af9de.js",
-    "main.9142fe09d74cafe213cc.js",
-    "manifest.191479cb6addea2cbf56.js",
-    "app.86777582488e489980f1c78ea4ce795d.css",
+    "main.2110aa1a774f08de0f88.js",
+    "manifest.85cf73a54066c73d609b.js",
+    "app.09918c69e4cbc60fd5b51ed5ba844492.css",
     "favicon.ico",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.191479cb6addea2cbf56.js",
+    "manifest.85cf73a54066c73d609b.js",
     "vendors.0fff97419a736b8af9de.js",
-    "main.9142fe09d74cafe213cc.js"
+    "main.2110aa1a774f08de0f88.js"
   ],
   "async": [
-    "0.0bfa88bd436bc0f12b10.js",
+    "0.1d7a90b43aba7c8562ae.js",
     "1.369834ff897ce1e9eac4.js",
     "2.05641b958e802e1148f5.js",
     "3.57bb3726fea4aad1d275.js",
@@ -259,7 +259,7 @@
       44,
       35
     ],
-    "f035b9a6": [
+    "bf5e6a5a": [
       42,
       44,
       35
@@ -543,12 +543,12 @@
       44,
       35
     ],
-    "5b8e67ad": [
+    "c4163c88": [
       42,
       44,
       35
     ],
-    "22c8b2b9": [
+    "652f2cc8": [
       42,
       44,
       35
@@ -651,10 +651,10 @@
     "4fc5bf40": [
       38
     ],
-    "228f2afe": [
+    "1b685204": [
       36
     ],
-    "6625a7ac": [
+    "35e253ac": [
       36
     ],
     "23a37e54": [
@@ -699,7 +699,7 @@
     "77a596b4": [
       40
     ],
-    "531437ae": [
+    "fc2b3bf4": [
       36
     ],
     "21900e71": [
