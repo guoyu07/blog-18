@@ -1,5 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var invert_color_1 = require("invert-color");
-exports.invertColor = invert_color_1.default;
+// tslint:disable-next-line:no-var-requires
+exports.invertColor = require('invert-color');
 //# sourceMappingURL=color.js.map
