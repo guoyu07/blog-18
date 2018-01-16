@@ -23,6 +23,7 @@ var config = {
     resolve: {
         alias: {
             'date-fns$': 'date-fns/esm',
+            lodash$: 'lodash-es',
         },
         extensions: ['.ts', '.js'],
         modules: [config_1.resolve('src'), 'node_modules'],
@@ -110,7 +111,9 @@ var config = {
     plugins: [
         new webpack.DefinePlugin(__assign({}, Object.entries(process.env).reduce(function (result, _a) {
             var key = _a[0], value = _a[1];
-            result["process.env." + key] = JSON.stringify(value);
+            if (key !== 'VUE_ENV') {
+                result["process.env." + key] = JSON.stringify(value);
+            }
             return result;
         }, {}), { __DEV__: config_1.__DEV__, API_PREFIX: JSON.stringify('/api') })),
         new ExtractTextPlugin({

@@ -45,6 +45,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
+var accept_language_1 = require("accept-language");
 var _debug = require("debug");
 var Koa = require("koa");
 var proxy = require("koa-better-http-proxy");
@@ -57,6 +58,9 @@ var LRU = require("lru-cache");
 var vue_server_renderer_1 = require("vue-server-renderer");
 var config_1 = require("../build/config");
 var router_1 = require("./router");
+var utils_1 = require("utils");
+accept_language_1.default.languages([utils_1.Locale.ZH, utils_1.Locale.EN]);
+var ACCEPT_LANGUAGE = 'Accept-Language';
 var _a = process.env, APP_KEYS = _a.APP_KEYS, GITHUB_TOKEN = _a.GITHUB_TOKEN;
 var debug = _debug("1stg:server" + (config_1.__DEV__ ? ':core' : ''));
 var app = new Koa();
@@ -81,7 +85,7 @@ var createRenderer = function (bundle, options) {
 var middlewares = [
     logger(),
     function (ctx, next) { return __awaiter(_this, void 0, void 0, function () {
-        var url, start, context, res, stream;
+        var url, start, originalLocale, locale, context, res, stream;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -98,8 +102,18 @@ var middlewares = [
                 case 1:
                     _a.sent();
                     start = Date.now();
+                    originalLocale = ctx.cookies.get(utils_1.LOCALE_COOKIE);
+                    locale = originalLocale || accept_language_1.default.get(ctx.get(ACCEPT_LANGUAGE));
+                    if (!originalLocale) {
+                        ctx.cookies.set(utils_1.LOCALE_COOKIE, locale, {
+                            httpOnly: false,
+                            path: '/',
+                            expires: new Date(utils_1.INFINITY_DATE),
+                        });
+                    }
                     context = {
                         ctx: ctx,
+                        locale: locale,
                         title: 'Blog | Blog system built on GitHub API with Vue SSR',
                     };
                     ctx.respond = false;
