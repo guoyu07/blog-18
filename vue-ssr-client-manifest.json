@@ -4,62 +4,62 @@
     "font/Lato-BoldItalic.ttf",
     "fonts.css",
     "font/Lato-Light.woff",
+    "font/Lato-Light.woff2",
     "font/Lato-Light.ttf",
-    "font/Lato-Light.eot",
+    "font/Lato-LightItalic.eot",
     "font/Lato-LightItalic.woff",
     "font/Lato-LightItalic.woff2",
     "font/Lato-LightItalic.ttf",
-    "font/Lato-LightItalic.eot",
+    "font/Lato-Regular.eot",
+    "font/Lato-Regular.woff",
+    "font/Lato-Regular.woff2",
     "font/Lato-Light.svg",
+    "font/Lato-Regular.ttf",
+    "font/Lato-Regular.svg",
     "font/Lato-Italic.woff",
     "font/Lato-Italic.woff2",
     "font/Lato-Italic.eot",
     "font/Lato-Italic.ttf",
-    "font/Lato-Regular.eot",
-    "font/Lato-Regular.woff",
-    "font/Lato-Regular.woff2",
-    "font/Lato-Regular.svg",
-    "font/Lato-Regular.ttf",
+    "font/Lato-BoldItalic.eot",
     "font/Lato-BoldItalic.woff",
     "font/Lato-BoldItalic.woff2",
-    "font/Lato-BoldItalic.eot",
-    "font/Lato-LightItalic.svg",
-    "font/Lato-Light.woff2",
-    "font/Lato-Bold.woff",
+    "font/Lato-BoldItalic.svg",
+    "font/Lato-Light.eot",
     "font/Lato-Bold.eot",
+    "font/Lato-Bold.woff",
     "font/Lato-Bold.woff2",
     "font/Lato-Bold.ttf",
+    "font/Lato-LightItalic.svg",
     "font/Lato-Italic.svg",
-    "font/Lato-BoldItalic.svg",
     "font/Lato-Bold.svg",
     "674f50d287a8c48dc19ba404d20fe713.eot",
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
     "acd7832c2e5ecb3a2a7450f64e843195.png",
-    "0.c419b660ffdb0874c026.js",
-    "1.768376790f123fed29d5.js",
-    "2.4bfb41a5383a3c1718bc.js",
-    "3.c731180d34209f7e213d.js",
-    "4.a2fb6902d88e748b151d.js",
-    "vendors.16c99b8e8e7321b8bd64.js",
-    "main.85856105822fd8cf9fa4.js",
-    "manifest.9e5c7ddc9c5f0aa1c427.js",
-    "app.09918c69e4cbc60fd5b51ed5ba844492.css",
+    "0.8ac4b505714e30900f3e.js",
+    "1.b0739e10ad8c014a8a4e.js",
+    "2.d8903c979bcf7cfc0f90.js",
+    "3.00ab90d758961f2719ae.js",
+    "4.a1845452dcd4c20e6cfb.js",
+    "vendors.39c8e9b86dbbb5c12979.js",
+    "main.2be4a0a910db722e9e58.js",
+    "manifest.07914d1e29c6ad4ef3f9.js",
+    "app.d6c2e120459c7e949c9809f81ee8f15a.css",
     "favicon.ico",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.9e5c7ddc9c5f0aa1c427.js",
-    "vendors.16c99b8e8e7321b8bd64.js",
-    "main.85856105822fd8cf9fa4.js"
+    "manifest.07914d1e29c6ad4ef3f9.js",
+    "vendors.39c8e9b86dbbb5c12979.js",
+    "main.2be4a0a910db722e9e58.js"
   ],
   "async": [
-    "0.c419b660ffdb0874c026.js",
-    "1.768376790f123fed29d5.js",
-    "2.4bfb41a5383a3c1718bc.js",
-    "3.c731180d34209f7e213d.js",
-    "4.a2fb6902d88e748b151d.js"
+    "0.8ac4b505714e30900f3e.js",
+    "1.b0739e10ad8c014a8a4e.js",
+    "2.d8903c979bcf7cfc0f90.js",
+    "3.00ab90d758961f2719ae.js",
+    "4.a1845452dcd4c20e6cfb.js"
   ],
   "modules": {
     "58478250": [
@@ -118,6 +118,11 @@
       33,
       34
     ],
+    "ed816aa8": [
+      42,
+      44,
+      35
+    ],
     "9cc7126a": [
       41,
       31,
@@ -157,11 +162,6 @@
       32,
       33,
       34
-    ],
-    "69a45dd7": [
-      42,
-      44,
-      35
     ],
     "4eea9537": [
       41,
@@ -312,7 +312,12 @@
       44,
       35
     ],
-    "edc4339a": [
+    "9ce8edac": [
+      42,
+      44,
+      35
+    ],
+    "53482c7b": [
       42,
       44,
       35
@@ -612,12 +617,12 @@
       44,
       35
     ],
-    "287a974d": [
+    "36f7c026": [
       42,
       44,
       35
     ],
-    "20963b4e": [
+    "a8832a0e": [
       42,
       44,
       35
@@ -714,10 +719,10 @@
     "be43a088": [
       36
     ],
-    "4a91aff8": [
+    "0a788990": [
       38
     ],
-    "5501e58a": [
+    "0533f0ca": [
       38
     ],
     "1b685204": [
@@ -756,25 +761,25 @@
     "35a1ac0e": [
       36
     ],
-    "350a5869": [
+    "4d744dd4": [
       37
     ],
-    "7a6174fb": [
+    "da692b34": [
       37
     ],
-    "62ddf450": [
+    "2efbbd87": [
       38
     ],
-    "77a596b4": [
+    "31dc5670": [
       40
     ],
-    "aa773242": [
+    "5d6ef8f6": [
       39
     ],
     "fc2b3bf4": [
       36
     ],
-    "07224a65": [
+    "5dff87a5": [
       37
     ]
   }
