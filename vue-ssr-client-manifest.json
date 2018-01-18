@@ -1,65 +1,65 @@
 {
   "publicPath": "/",
   "all": [
-    "font/Lato-BoldItalic.ttf",
+    "font/Lato-BoldItalic.woff",
     "fonts.css",
-    "font/Lato-Light.woff",
     "font/Lato-Light.woff2",
+    "font/Lato-Light.eot",
     "font/Lato-Light.ttf",
+    "font/Lato-Regular.eot",
+    "font/Lato-Regular.woff",
+    "font/Lato-Regular.woff2",
+    "font/Lato-Regular.ttf",
+    "font/Lato-Regular.svg",
     "font/Lato-LightItalic.eot",
     "font/Lato-LightItalic.woff",
     "font/Lato-LightItalic.woff2",
     "font/Lato-LightItalic.ttf",
-    "font/Lato-Regular.eot",
-    "font/Lato-Regular.woff",
-    "font/Lato-Regular.woff2",
-    "font/Lato-Light.svg",
-    "font/Lato-Regular.ttf",
-    "font/Lato-Regular.svg",
+    "font/Lato-Italic.eot",
     "font/Lato-Italic.woff",
     "font/Lato-Italic.woff2",
-    "font/Lato-Italic.eot",
     "font/Lato-Italic.ttf",
-    "font/Lato-BoldItalic.eot",
-    "font/Lato-BoldItalic.woff",
-    "font/Lato-BoldItalic.woff2",
-    "font/Lato-BoldItalic.svg",
-    "font/Lato-Light.eot",
     "font/Lato-Bold.eot",
     "font/Lato-Bold.woff",
     "font/Lato-Bold.woff2",
+    "font/Lato-Light.svg",
     "font/Lato-Bold.ttf",
+    "font/Lato-Light.woff",
     "font/Lato-LightItalic.svg",
+    "font/Lato-BoldItalic.woff2",
+    "font/Lato-BoldItalic.eot",
+    "font/Lato-BoldItalic.ttf",
     "font/Lato-Italic.svg",
     "font/Lato-Bold.svg",
+    "font/Lato-BoldItalic.svg",
     "674f50d287a8c48dc19ba404d20fe713.eot",
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
     "acd7832c2e5ecb3a2a7450f64e843195.png",
-    "0.41441f59d809abcc265b.js",
-    "1.c780bb9d2c8732d6bd60.js",
-    "2.18c626b210106beb5cee.js",
+    "0.26ba298ed635d669c7cb.js",
+    "1.4558518c3363f3bfd499.js",
+    "2.12f2b80eb98389b4bd93.js",
     "3.d1a959477ed696ac422b.js",
-    "4.ac185b92d8aa4dea8e88.js",
-    "vendors.40c197c98a5de3752f10.js",
-    "app.38e64973861c914f8e2f.js",
-    "manifest.5633814bcf1b8bd1ab99.js",
-    "app.c5de792595106eedb40ecc7f0c68fa16.css",
+    "4.446f9e1c5fd878169e9b.js",
+    "vendors.3097f5253f800148f8bb.js",
+    "app.67b8c417d81c0dd53a1e.js",
+    "manifest.acd94e5354bae7ca0143.js",
+    "app.d320562c3d91a6806ed2e297583126a6.css",
     "favicon.ico",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.5633814bcf1b8bd1ab99.js",
-    "vendors.40c197c98a5de3752f10.js",
-    "app.38e64973861c914f8e2f.js"
+    "manifest.acd94e5354bae7ca0143.js",
+    "vendors.3097f5253f800148f8bb.js",
+    "app.67b8c417d81c0dd53a1e.js"
   ],
   "async": [
-    "0.41441f59d809abcc265b.js",
-    "1.c780bb9d2c8732d6bd60.js",
-    "2.18c626b210106beb5cee.js",
+    "0.26ba298ed635d669c7cb.js",
+    "1.4558518c3363f3bfd499.js",
+    "2.12f2b80eb98389b4bd93.js",
     "3.d1a959477ed696ac422b.js",
-    "4.ac185b92d8aa4dea8e88.js"
+    "4.446f9e1c5fd878169e9b.js"
   ],
   "modules": {
     "17375039": [
@@ -246,6 +246,11 @@
       33,
       34
     ],
+    "ed816aa8": [
+      42,
+      44,
+      35
+    ],
     "6fcf51cf": [
       41,
       31,
@@ -261,11 +266,6 @@
       32,
       33,
       34
-    ],
-    "ed816aa8": [
-      42,
-      44,
-      35
     ],
     "9cc7126a": [
       41,
@@ -506,7 +506,7 @@
       44,
       35
     ],
-    "02c21b80": [
+    "3064cdb4": [
       42,
       44,
       35
@@ -2462,17 +2462,17 @@
       44,
       35
     ],
-    "b0af1396": [
+    "583e9a1a": [
       42,
       44,
       35
     ],
-    "6ee2c141": [
+    "f1c2aca0": [
       42,
       44,
       35
     ],
-    "9f7abdf2": [
+    "6ba7920f": [
       42,
       44,
       35
@@ -2584,16 +2584,16 @@
     "be43a088": [
       36
     ],
-    "0476bf46": [
+    "1e6ae452": [
       37
     ],
-    "0ee6f4d8": [
+    "32dde780": [
       37
     ],
-    "1b685204": [
+    "352ac63c": [
       36
     ],
-    "35e253ac": [
+    "5f57ff74": [
       36
     ],
     "23a37e54": [
@@ -2626,10 +2626,10 @@
     "35a1ac0e": [
       36
     ],
-    "4d744dd4": [
+    "472b9f68": [
       38
     ],
-    "da692b34": [
+    "16ed5b96": [
       38
     ]
   }
