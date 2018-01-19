@@ -25,23 +25,19 @@ router.onReady(() => {
     let diffed = false
 
     const activated = matched.filter(
-      (comp, index) => diffed || (diffed = prevMatched[index] !== comp),
+      (component, index) =>
+        diffed || (diffed = prevMatched[index] !== component),
     )
 
     store.commit(SET_PROGRESS, 70)
 
     if (activated.length) {
       await Promise.all([
-        ...activated.map(({ options }: any) => {
-          const { asyncData } = options || { asyncData: null }
-          return asyncData && asyncData({ axios, route: to, store })
-        }),
-        apolloProvider.prefetchAll(
-          {
-            route: to,
-          },
-          activated,
+        ...activated.map(
+          ({ options, asyncData = options && options.asyncData }: any) =>
+            asyncData && asyncData({ axios, store, route: to }),
         ),
+        apolloProvider.prefetchAll({ route: to }, activated),
       ])
     }
 

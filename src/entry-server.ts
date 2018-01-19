@@ -89,10 +89,10 @@ export default (context: ServerContext) =>
 
       try {
         await Promise.all([
-          ...matched.map(({ options }: any) => {
-            const { asyncData } = options || { asyncData: null }
-            return asyncData && asyncData({ axios, route, store })
-          }),
+          ...matched.map(
+            ({ options, asyncData = options && options.asyncData }: any) =>
+              asyncData && asyncData({ axios, store, route }),
+          ),
           apolloProvider.prefetchAll(
             {
               route,

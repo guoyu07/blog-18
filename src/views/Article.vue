@@ -42,10 +42,13 @@ import * as querires from 'queries.gql'
     issue: {
       query: querires.issue,
       prefetch: ({ route }: { route: Route }) => {
-        return {
-          ...REPOSITORY,
-          number: +route.params.number,
-        }
+        const num = +route.params.number
+        return num
+          ? {
+              ...REPOSITORY,
+              number: num,
+            }
+          : false
       },
       variables() {
         return {
