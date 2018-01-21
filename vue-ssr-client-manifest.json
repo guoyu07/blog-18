@@ -1,59 +1,59 @@
 {
   "publicPath": "/",
   "all": [
-    "font/Lato-BoldItalic.eot",
+    "font/Lato-LightItalic.svg",
     "fonts.css",
+    "font/Lato-LightItalic.woff2",
+    "font/Lato-LightItalic.eot",
+    "font/Lato-LightItalic.ttf",
     "font/Lato-Light.woff",
+    "font/Lato-Light.eot",
     "font/Lato-Light.woff2",
     "font/Lato-Light.ttf",
-    "font/Lato-LightItalic.eot",
-    "font/Lato-LightItalic.woff",
-    "font/Lato-LightItalic.woff2",
-    "font/Lato-LightItalic.ttf",
     "font/Lato-Regular.eot",
-    "font/Lato-Regular.woff2",
     "font/Lato-Regular.woff",
-    "font/Lato-Regular.ttf",
+    "font/Lato-Regular.woff2",
     "font/Lato-Regular.svg",
+    "font/Lato-Regular.ttf",
+    "font/Lato-Italic.eot",
     "font/Lato-Italic.woff",
     "font/Lato-Italic.woff2",
-    "font/Lato-Italic.eot",
     "font/Lato-Italic.ttf",
     "font/Lato-Bold.eot",
     "font/Lato-Bold.woff",
     "font/Lato-Bold.woff2",
     "font/Lato-Bold.ttf",
-    "font/Lato-Light.eot",
+    "font/Lato-LightItalic.woff",
+    "font/Lato-BoldItalic.eot",
     "font/Lato-BoldItalic.woff",
     "font/Lato-BoldItalic.woff2",
     "font/Lato-Light.svg",
     "font/Lato-BoldItalic.ttf",
-    "font/Lato-LightItalic.svg",
-    "font/Lato-BoldItalic.svg",
     "font/Lato-Italic.svg",
     "font/Lato-Bold.svg",
+    "font/Lato-BoldItalic.svg",
     "674f50d287a8c48dc19ba404d20fe713.eot",
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
-    "0.1bddd7d2b47374252398.js",
+    "0.3f1a638157326636198f.js",
     "1.fc9d07b1b04613622c66.js",
     "2.ae3f2c95a1491c69fefe.js",
     "3.6e19d3b1ecfdd592f7c8.js",
     "4.12e50a19b62d134b2182.js",
     "vendors.7c7aa9912a9866b41baf.js",
     "app.c546494ac7651ff72588.js",
-    "manifest.1e92e0589a31b766c327.js",
+    "manifest.116f21ee850b2d87e8ce.js",
     "app.da56c61d6e0288e68b9214ef9f99da35.css",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.1e92e0589a31b766c327.js",
+    "manifest.116f21ee850b2d87e8ce.js",
     "vendors.7c7aa9912a9866b41baf.js",
     "app.c546494ac7651ff72588.js"
   ],
   "async": [
-    "0.1bddd7d2b47374252398.js",
+    "0.3f1a638157326636198f.js",
     "1.fc9d07b1b04613622c66.js",
     "2.ae3f2c95a1491c69fefe.js",
     "3.6e19d3b1ecfdd592f7c8.js",
@@ -2561,10 +2561,10 @@
     "7e9cc80d": [
       37
     ],
-    "2e087c3a": [
+    "ff991fe4": [
       35
     ],
-    "62e92475": [
+    "0bbe5ac0": [
       35
     ],
     "23a37e54": [
@@ -2612,7 +2612,7 @@
     "727ecb8f": [
       38
     ],
-    "26fe2364": [
+    "3154b907": [
       35
     ],
     "1bfb95ce": [
