@@ -1,33 +1,33 @@
 {
   "publicPath": "/",
   "all": [
-    "font/Lato-BoldItalic.eot",
+    "font/Lato-Bold.ttf",
     "fonts.css",
     "font/Lato-Light.woff2",
-    "font/Lato-Light.eot",
     "font/Lato-Light.ttf",
-    "font/Lato-LightItalic.eot",
+    "font/Lato-Light.eot",
     "font/Lato-LightItalic.woff",
     "font/Lato-LightItalic.woff2",
+    "font/Lato-LightItalic.eot",
     "font/Lato-LightItalic.ttf",
     "font/Lato-Regular.eot",
     "font/Lato-Regular.woff",
     "font/Lato-Regular.woff2",
-    "font/Lato-Regular.ttf",
     "font/Lato-Regular.svg",
+    "font/Lato-Regular.ttf",
+    "font/Lato-Italic.eot",
     "font/Lato-Italic.woff",
     "font/Lato-Italic.woff2",
-    "font/Lato-Italic.eot",
     "font/Lato-Italic.ttf",
+    "font/Lato-Light.svg",
     "font/Lato-Bold.woff",
     "font/Lato-Bold.woff2",
     "font/Lato-Bold.eot",
-    "font/Lato-Bold.ttf",
     "font/Lato-Light.woff",
     "font/Lato-BoldItalic.woff",
-    "font/Lato-BoldItalic.woff2",
     "font/Lato-LightItalic.svg",
-    "font/Lato-Light.svg",
+    "font/Lato-BoldItalic.woff2",
+    "font/Lato-BoldItalic.eot",
     "font/Lato-BoldItalic.ttf",
     "font/Lato-Italic.svg",
     "font/Lato-Bold.svg",
@@ -36,26 +36,26 @@
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
-    "0.1bd2947d587bdc6e7dc4.js",
-    "1.6da0f5fb641591133f6e.js",
-    "2.59a49049d512b2fab678.js",
+    "0.375907112f6d5e90ccee.js",
+    "1.5d984a96c0230a024755.js",
+    "2.d0b58c737e4ad91d8847.js",
     "3.62a3193c5846ca97f70e.js",
     "4.59a885d279dff95a325e.js",
     "vendors.05ee7ef8d3f944d40b53.js",
-    "app.223e3507d376be75ccfb.js",
-    "manifest.953b74984aa0b3737cdc.js",
-    "app.57b13a6f643f80956106963d05821033.css",
+    "app.dbac91d548a9e3b2e986.js",
+    "manifest.e02c794d3d68aaf5e7dd.js",
+    "app.a2808af3c17293aa4b053102fc081edc.css",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.953b74984aa0b3737cdc.js",
+    "manifest.e02c794d3d68aaf5e7dd.js",
     "vendors.05ee7ef8d3f944d40b53.js",
-    "app.223e3507d376be75ccfb.js"
+    "app.dbac91d548a9e3b2e986.js"
   ],
   "async": [
-    "0.1bd2947d587bdc6e7dc4.js",
-    "1.6da0f5fb641591133f6e.js",
-    "2.59a49049d512b2fab678.js",
+    "0.375907112f6d5e90ccee.js",
+    "1.5d984a96c0230a024755.js",
+    "2.d0b58c737e4ad91d8847.js",
     "3.62a3193c5846ca97f70e.js",
     "4.59a885d279dff95a325e.js"
   ],
@@ -2532,7 +2532,7 @@
       41,
       43
     ],
-    "de318d1c": [
+    "200af69c": [
       41,
       43
     ],
@@ -2544,7 +2544,7 @@
       33,
       34
     ],
-    "5f91d3fc": [
+    "2f812226": [
       41,
       43
     ],
@@ -2655,22 +2655,22 @@
       33,
       34
     ],
-    "1d790df8": [
+    "72ccf60e": [
       36
     ],
-    "3ff31f0a": [
+    "e4551888": [
       36
     ],
-    "00551178": [
+    "54fe91ee": [
       37
     ],
-    "2c9d8872": [
+    "c9f46c00": [
       37
     ],
-    "12d38e22": [
+    "4d297b38": [
       35
     ],
-    "58dac634": [
+    "e1811c34": [
       35
     ]
   }
