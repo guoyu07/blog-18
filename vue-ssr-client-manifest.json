@@ -1,7 +1,7 @@
 {
   "publicPath": "/",
   "all": [
-    "font/Lato-BoldItalic.woff",
+    "font/Lato-BoldItalic.ttf",
     "fonts.css",
     "font/Lato-Light.eot",
     "font/Lato-Light.woff2",
@@ -12,53 +12,53 @@
     "font/Lato-Regular.eot",
     "font/Lato-Regular.woff",
     "font/Lato-Regular.woff2",
+    "font/Lato-Regular.svg",
     "font/Lato-Regular.ttf",
     "font/Lato-LightItalic.eot",
+    "font/Lato-Bold.woff",
+    "font/Lato-Bold.woff2",
+    "font/Lato-Bold.eot",
+    "font/Lato-LightItalic.svg",
+    "font/Lato-Bold.ttf",
+    "font/Lato-BoldItalic.woff",
+    "font/Lato-BoldItalic.woff2",
+    "font/Lato-BoldItalic.eot",
+    "font/Lato-Bold.svg",
+    "font/Lato-Light.woff",
     "font/Lato-Italic.woff",
     "font/Lato-Italic.woff2",
-    "font/Lato-Light.svg",
     "font/Lato-Italic.eot",
-    "font/Lato-Italic.ttf",
-    "font/Lato-Bold.woff",
-    "font/Lato-Regular.svg",
-    "font/Lato-Bold.woff2",
-    "font/Lato-Bold.ttf",
-    "font/Lato-Bold.eot",
-    "font/Lato-Light.woff",
-    "font/Lato-BoldItalic.woff2",
-    "font/Lato-Bold.svg",
-    "font/Lato-BoldItalic.ttf",
-    "font/Lato-BoldItalic.eot",
-    "font/Lato-LightItalic.svg",
-    "font/Lato-Italic.svg",
     "font/Lato-BoldItalic.svg",
+    "font/Lato-Italic.ttf",
+    "font/Lato-Light.svg",
+    "font/Lato-Italic.svg",
     "674f50d287a8c48dc19ba404d20fe713.eot",
     "af7ae505a9eed503f8b8e6982036873e.woff2",
     "fee66e712a8a08eef5805a46892932ad.woff",
     "b06871f281fee6b241d60582ae9369b9.ttf",
     "760bd83ee04dff470e0277f3eb7deebe.svg",
-    "0.f027cf6cab2efee23425.js",
-    "1.5a138c9628bc0fbb80af.js",
-    "2.24f318f50cb5182ac5b2.js",
-    "3.ba690c661e200aeacd16.js",
-    "4.43e164de0c9827701842.js",
-    "vendors.7a4443f25b3b9748b046.js",
-    "app.fdedef3ede45c121debf.js",
-    "manifest.a78e565c3c4715e7ebed.js",
-    "app.6e7f63f059ff2c6100f6e3f1e365f92e.css",
+    "0.f7a683f2b7e86c7fec17.js",
+    "1.b0309fd93ecd96787d02.js",
+    "2.e6d728480b136f1a6d59.js",
+    "3.420b75f875be1097ca39.js",
+    "4.27183f829be82a30afbb.js",
+    "vendors.83afde3759e04eedcdad.js",
+    "app.ddb0f7d699f1088a1255.js",
+    "manifest.d5bc1188bdb7a7e3d8f6.js",
+    "app.a796df99aacf2db4062be53d8092ce6a.css",
     "__non_ssr_page__.html"
   ],
   "initial": [
-    "manifest.a78e565c3c4715e7ebed.js",
-    "vendors.7a4443f25b3b9748b046.js",
-    "app.fdedef3ede45c121debf.js"
+    "manifest.d5bc1188bdb7a7e3d8f6.js",
+    "vendors.83afde3759e04eedcdad.js",
+    "app.ddb0f7d699f1088a1255.js"
   ],
   "async": [
-    "0.f027cf6cab2efee23425.js",
-    "1.5a138c9628bc0fbb80af.js",
-    "2.24f318f50cb5182ac5b2.js",
-    "3.ba690c661e200aeacd16.js",
-    "4.43e164de0c9827701842.js"
+    "0.f7a683f2b7e86c7fec17.js",
+    "1.b0309fd93ecd96787d02.js",
+    "2.e6d728480b136f1a6d59.js",
+    "3.420b75f875be1097ca39.js",
+    "4.27183f829be82a30afbb.js"
   ],
   "modules": {
     "17375039": [
@@ -87,6 +87,9 @@
       33,
       34,
       35
+    ],
+    "21186452": [
+      39
     ],
     "49473088": [
       41,
@@ -561,15 +564,6 @@
       35
     ],
     "2da082c6": [
-      41,
-      31,
-      31,
-      32,
-      33,
-      34,
-      35
-    ],
-    "7369e007": [
       41,
       31,
       31,
@@ -2737,6 +2731,15 @@
       34,
       35
     ],
+    "7369e007": [
+      41,
+      31,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
     "5aba0748": [
       41,
       31,
@@ -2773,16 +2776,7 @@
       34,
       35
     ],
-    "0f65654b": [
-      41,
-      31,
-      31,
-      32,
-      33,
-      34,
-      35
-    ],
-    "3df9f362": [
+    "2d16fe6a": [
       41,
       31,
       31,
@@ -2809,7 +2803,7 @@
       34,
       35
     ],
-    "0bca5b4e": [
+    "79e0a872": [
       41,
       31,
       31,
@@ -2895,21 +2889,6 @@
       34,
       35
     ],
-    "4bd58332": [
-      36
-    ],
-    "4f8b31d6": [
-      39
-    ],
-    "6d0960a2": [
-      40
-    ],
-    "37fb65c0": [
-      38
-    ],
-    "e306ee3a": [
-      37
-    ],
     "72b6a025": [
       41,
       31,
@@ -2973,10 +2952,10 @@
       34,
       35
     ],
-    "6cd99849": [
+    "287f20d0": [
       36
     ],
-    "f03bd412": [
+    "43879e7e": [
       36
     ],
     "54fe91ee": [
@@ -2985,10 +2964,22 @@
     "c9f46c00": [
       38
     ],
-    "7c9d6878": [
+    "70177c66": [
       37
     ],
-    "03c74272": [
+    "9ba519d8": [
+      37
+    ],
+    "505b1b95": [
+      36
+    ],
+    "6d0960a2": [
+      40
+    ],
+    "37fb65c0": [
+      38
+    ],
+    "b1e465ec": [
       37
     ]
   }
