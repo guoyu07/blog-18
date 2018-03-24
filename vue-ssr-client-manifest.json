@@ -34,7 +34,7 @@
     "5.67137719e1b5a53ddce0.js",
     "manifest.45b29dbbbcdbe8e36d87.js",
     "vendors.39a4f992f62d6f82ea57.js",
-    "app.d572f81c02316315f201.js",
+    "app.31c265367f552e9244e2.js",
     "app.a167e2cbf6603c691d2079dd2f69c645.css",
     "app.1730e7307e4bf34c743f1b242660639c.css",
     "__non_ssr_page__.html"
@@ -42,7 +42,7 @@
   "initial": [
     "manifest.45b29dbbbcdbe8e36d87.js",
     "vendors.39a4f992f62d6f82ea57.js",
-    "app.d572f81c02316315f201.js"
+    "app.31c265367f552e9244e2.js"
   ],
   "async": [
     "0.9f6b526c6acba0551949.js",
@@ -345,7 +345,7 @@
       32,
       35
     ],
-    "2fc0b559": [
+    "0efb1315": [
       33,
       34
     ],
